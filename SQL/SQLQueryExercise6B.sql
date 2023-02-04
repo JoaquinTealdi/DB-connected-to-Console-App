@@ -1,0 +1,76 @@
+USE Sprint2DB;
+
+INSERT INTO Categories
+VALUES ('PHONES','SAMGUNG - XIAOMI - MOTOROLA - IPHONE' ),
+('COMPUTING','PC GAMER - PC HOME OFFICE - NOTEBOOK' ),
+('PHOTOGRAPHY','CANON - NIKON - GOPRO - SONY'),
+('KEYBOARD','REDRAGON - LOGITECH - HIPERX - HP'),
+('MOUSE','REDRAGON - LOGITECH - HIPERX - HP');
+
+INSERT INTO Customers
+VALUES('Martin','Lopez'),
+('Pedro','Almanza'),
+('Sebastian','Villordo');
+
+INSERT INTO Products
+VALUES(1, 'PHONES', 'SAMSUNG', 500),
+(1, 'PHONES', 'XIAOMI', 500),
+(1, 'PHONES', 'IPHONE', 500),
+(1, 'PHONES', 'MOTOROLA', 500),
+(2, 'COMPUTING','PC GAMER', 1000),
+(2, 'COMPUTING','PC HOME OFFICE', 1000),
+(2, 'COMPUTING','NOTEBOOK', 1000),
+(2, 'COMPUTING','PC GAMER PRO', 1000),
+(3, 'PHOTOGRAPHY','CANON', 400),
+(3, 'PHOTOGRAPHY','NIKON', 400),
+(3, 'PHOTOGRAPHY','GOPRO', 400),
+(3, 'PHOTOGRAPHY','SONY', 400),
+(4, 'KEYBOARD','REDRAGON',200),
+(4, 'KEYBOARD','LOGITECH', 200),
+(4, 'KEYBOARD','HIPERX', 200),
+(4, 'KEYBOARD','HP', 200),
+(5, 'MOUSE','REDRAGON', 150),
+(5, 'MOUSE','LOGITECH', 150),
+(5, 'MOUSE','HIPERX', 150),
+(5, 'MOUSE','HP', 150);
+
+
+INSERT INTO Invoices(invoice_number, invoice_date, invoice_total, customer_id_fk)
+VALUES (1, CONVERT(DATE,'12/26/2022',101), 3700, 1), 
+(2, CONVERT(DATE,'12/02/2022',101), 950, 1),
+(3, CONVERT(DATE,'06/22/2022',101), 3200, 1), 
+(4, CONVERT(DATE,'06/21/2022',101), 400, 2), 
+(5, CONVERT(DATE,'04/13/2022',101), 1450, 2),
+(6, CONVERT(DATE,'12/26/2022',101), 1350, 2), 
+(7, CONVERT(DATE,'07/14/2022',101), 3400, 2), 
+(8, CONVERT(DATE,'10/29/2022',101), 600, 3), 
+(9, CONVERT(DATE,'04/13/2022',101), 1600, 3), 
+(10, CONVERT(DATE,'03/10/2022',101), 1900, 3); 
+
+
+INSERT INTO InvoiceDetails(invoice_id_fk, product_id_fk, quantity, subtotal)
+VALUES (1, 1, 1, 500),
+(1, 14, 1, 200),
+(1, 5, 3, 3000),
+(2, 18, 2, 300),
+(2, 17, 1, 150),
+(2, 2, 1, 500),
+(3, 16, 1, 200),
+(3, 3, 2, 1000),
+(3, 7, 2, 2000),
+(4, 15, 2, 400),
+(5, 6, 1, 1000),
+(5, 20, 3, 450),
+(6, 20, 1, 150),
+(6, 10, 3, 1200),
+(7, 11, 1, 400),
+(7, 4, 2, 1000),
+(7, 8, 2, 2000),
+(8, 14, 1, 200),
+(8, 15, 1, 200),
+(8, 13, 1, 200),
+(9, 12, 4, 1600),
+(10, 7, 1, 1000),
+(10, 4, 1, 500),
+(10, 16, 1, 200),
+(10, 13, 1, 200);

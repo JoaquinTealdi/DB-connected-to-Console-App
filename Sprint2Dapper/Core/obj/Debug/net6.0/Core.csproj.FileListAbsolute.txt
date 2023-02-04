@@ -1,0 +1,17 @@
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\bin\Debug\net6.0\Core.deps.json
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\bin\Debug\net6.0\Core.dll
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\bin\Debug\net6.0\Core.pdb
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\bin\Debug\net6.0\DAL.dll
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\bin\Debug\net6.0\Models.dll
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\bin\Debug\net6.0\DAL.pdb
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\bin\Debug\net6.0\Models.pdb
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\obj\Debug\net6.0\Core.csproj.CopyComplete
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\obj\Debug\net6.0\Core.dll
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\obj\Debug\net6.0\refint\Core.dll
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\obj\Debug\net6.0\Core.pdb
+E:\PROGRAMAS\C#\Proyectos\SPRINT 2\Sprint2Dapper\Core\obj\Debug\net6.0\ref\Core.dll
